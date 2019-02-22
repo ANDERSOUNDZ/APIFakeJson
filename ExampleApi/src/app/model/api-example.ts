@@ -21,3 +21,32 @@ export class apiDataUser {
       }
     }
 }
+
+export class apiDataComment {
+    "postId": number;
+    "id": number;
+    "name": string;
+    "email": string;
+    "body": string;
+}
+
+export class apiDataAlbum {
+    "userId": number;
+    "id": number;
+    "title": string;
+  }
+
+export class apiDataPhoto {
+    "albumId": number;
+    "id": number;
+    "title": string;
+    "url": string;
+    "thumbnailUrl": string;
+  }
+
+export class apiDataToDo {
+    "userId": number;
+    "id": number
+    "title": string;
+    "completed": false
+}

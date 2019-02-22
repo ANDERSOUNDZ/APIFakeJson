@@ -12,6 +12,14 @@ import { ScUserComponent } from './screens/sc-user/sc-user.component';
 import { UserListItemComponent } from './screens/sc-user/user-list-item/user-list-item.component';
 
 import { HttpClientModule } from '@angular/common/http';
+import { ScCommentComponent } from './screens/sc-comment/sc-comment.component';
+import { ComentListItemComponent } from './screens/sc-comment/coment-list-item/coment-list-item.component';
+import { ScAlbumComponent } from './screens/sc-album/sc-album.component';
+import { AlbumListItemComponent } from './screens/sc-album/album-list-item/album-list-item.component';
+import { ScPhotoComponent } from './screens/sc-photo/sc-photo.component';
+import { PhotoListItemComponent } from './screens/sc-photo/photo-list-item/photo-list-item.component';
+import { ScToDoComponent } from './screens/sc-to-do/sc-to-do.component';
+import { ToDoListItemComponent } from './screens/sc-to-do/to-do-list-item/to-do-list-item.component';
 
 
 
@@ -21,7 +29,15 @@ import { HttpClientModule } from '@angular/common/http';
     ScPostComponent,
     PostListItemComponent,
     ScUserComponent,
-    UserListItemComponent
+    UserListItemComponent,
+    ScCommentComponent,
+    ComentListItemComponent,
+    ScAlbumComponent,
+    AlbumListItemComponent,
+    ScPhotoComponent,
+    PhotoListItemComponent,
+    ScToDoComponent,
+    ToDoListItemComponent
   ],
   imports: [
     BrowserModule,
